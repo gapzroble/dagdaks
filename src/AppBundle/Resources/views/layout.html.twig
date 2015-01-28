@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+            <link rel="stylesheet" href="{{asset('bundles/sonataadmin/vendor/bootstrap/dist/css/bootstrap.min.css')}}">
+            <title></title>
+    </head>
+    <body>
+                    <header class="header">
+                                    <noscript>
+                        <div class="noscript-warning">
+                            noscript_warning
+                        </div>
+                    </noscript>
+                                                    <a class="logo" href="http://localhost:8080/dashboard"><span>Dagdaks</span></a>                                                                            <nav class="navbar navbar-static-top" role="navigation">
+                            <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+
+                            <div class="navbar-left">
+                                                                                                                                </div>
+
+                                                            <div class="navbar-right">
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                <i class="fa fa-plus-square fa-fw"></i> <i class="fa fa-caret-down"></i>
+                                            </a>
+                                                    
+    
+    
+    <div class="dropdown-menu multi-column dropdown-add"
+                    >
+            </div>
+                                        </li>
+                                        <li class="dropdown user-menu">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-user">
+                                                                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                                    </nav>
+                                                </header>
+        
+                    <div class="wrapper row-offcanvas row-offcanvas-left">
+                                    <aside class="left-side sidebar-offcanvas">
+                        <section class="sidebar">
+                                                                                                                                
+                                                                                                                                                                     <p class="text-center small" style="border-top: 1px solid #444444; padding-top: 10px">
+    <a>Dagdaks Lending Corporation</a>
+</p>
+                                                    </section>
+                    </aside>
+                
+                <aside class="right-side">
+                                            <section class="content-header">
+                                                                                                                                
+                                                    </section>
+
+                        <section class="content">
+                            
+                                                                                                                            
+                                
+                                                                    <div class="sonata-ba-content">
+    
+
+    
+    <div class="row">
+        
+        <div class="col-md-6">
+                            <div id="cms-block-54c0cf70e29e8" class="cms-block cms-block-element">
+        </div>
+
+                    </div>
+
+        
+        <div class="col-md-6">
+                    </div>
+    </div>
+
+    
+
+
+    
+
+</div>
+                                
+                                
+                                
+                                                                                    </section>
+                                    </aside>
+
+            </div>
+            
+<div id="sfwdt72e8af" class="sf-toolbar" style="display: none"></div><script>/*<![CDATA[*/    Sfjs = (function() {        "use strict";        var noop = function() {},            profilerStorageKey = 'sf2/profiler/',            request = function(url, onSuccess, onError, payload, options) {                var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');                options = options || {};                options.maxTries = options.maxTries || 0;                xhr.open(options.method || 'GET', url, true);                xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');                xhr.onreadystatechange = function(state) {                    if (4 !== xhr.readyState) {                        return null;                    }                    if (xhr.status == 404 && options.maxTries > 1) {                        setTimeout(function(){                            options.maxTries--;                            request(url, onSuccess, onError, payload, options);                        }, 500);                        return null;                    }                    if (200 === xhr.status) {                        (onSuccess || noop)(xhr);                    } else {                        (onError || noop)(xhr);                    }                };                xhr.send(payload || '');            },            hasClass = function(el, klass) {                return el.className.match(new RegExp('\\b' + klass + '\\b'));            },            removeClass = function(el, klass) {                el.className = el.className.replace(new RegExp('\\b' + klass + '\\b'), ' ');            },            addClass = function(el, klass) {                if (!hasClass(el, klass)) { el.className += " " + klass; }            },            getPreference = function(name) {                if (!window.localStorage) {                    return null;                }                return localStorage.getItem(profilerStorageKey + name);            },            setPreference = function(name, value) {                if (!window.localStorage) {                    return null;                }                localStorage.setItem(profilerStorageKey + name, value);            };        return {            hasClass: hasClass,            removeClass: removeClass,            addClass: addClass,            getPreference: getPreference,            setPreference: setPreference,            request: request,            load: function(selector, url, onSuccess, onError, options) {                var el = document.getElementById(selector);                if (el && el.getAttribute('data-sfurl') !== url) {                    request(                        url,                        function(xhr) {                            el.innerHTML = xhr.responseText;                            el.setAttribute('data-sfurl', url);                            removeClass(el, 'loading');                            (onSuccess || noop)(xhr, el);                        },                        function(xhr) { (onError || noop)(xhr, el); },                        '',                        options                    );                }                return this;            },            toggle: function(selector, elOn, elOff) {                var i,                    style,                    tmp = elOn.style.display,                    el = document.getElementById(selector);                elOn.style.display = elOff.style.display;                elOff.style.display = tmp;                if (el) {                    el.style.display = 'none' === tmp ? 'none' : 'block';                }                return this;            }        }    })();/*]]>*/</script><script>/*<![CDATA[*/    (function () {                Sfjs.load(            'sfwdt72e8af',            '/_wdt/72e8af',            function(xhr, el) {                el.style.display = -1 !== xhr.responseText.indexOf('sf-toolbarreset') ? 'block' : 'none';                if (el.style.display == 'none') {                    return;                }                if (Sfjs.getPreference('toolbar/displayState') == 'none') {                    document.getElementById('sfToolbarMainContent-72e8af').style.display = 'none';                    document.getElementById('sfToolbarClearer-72e8af').style.display = 'none';                    document.getElementById('sfMiniToolbar-72e8af').style.display = 'block';                } else {                    document.getElementById('sfToolbarMainContent-72e8af').style.display = 'block';                    document.getElementById('sfToolbarClearer-72e8af').style.display = 'block';                    document.getElementById('sfMiniToolbar-72e8af').style.display = 'none';                }            },            function(xhr) {                if (xhr.status !== 0) {                    confirm('An error occurred while loading the web debug toolbar (' + xhr.status + ': ' + xhr.statusText + ').\n\nDo you want to open the profiler?') && (window.location = '/_profiler/72e8af');                }            },            {'maxTries': 5}        );    })();/*]]>*/</script>
+</body>
+</html>
