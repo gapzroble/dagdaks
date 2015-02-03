@@ -48,7 +48,7 @@ body {
 
 {% block body %}
 <div class="container">
-    
+
     <form class="form-signin" action="{{ path("_security_check") }}" method="post">
         {% if error %}
             <div class="alert alert-danger" role="alert">{{ error.message }}</div>

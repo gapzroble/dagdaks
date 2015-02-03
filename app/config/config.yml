@@ -88,6 +88,6 @@ sonata_admin:
 fos_user:
     db_driver:      orm # can be orm or odm
     firewall_name:  main
-    user_class:     AppBundle\Entity\User
+    user_class:     AppBundle\Entity\Staff
     group:
         group_class: AppBundle\Entity\Group

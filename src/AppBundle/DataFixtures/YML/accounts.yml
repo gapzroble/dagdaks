@@ -1,0 +1,47 @@
+data:
+    - { 1: 'CASH IN BANK' }
+    - { 2: 'CASH IN VAULT' }
+    - { 3: 'LOAN RECEIVABLE' }
+    - { 4: 'PREPAID SUPPLIES' }
+    - { 5: 'PREPAID RENT' }
+    - { 6: 'PREPAID TAXES AND LICENSES' }
+    - { 7: 'LEASEHOLD AND IMPROVEMENT' }
+    - { 8: 'TRANSPORTATION EQUIPMENT' }
+    - { 9: 'OFFICE EQUIPMENT' }
+    - { 10: 'PETTY CASH' }
+    - { 11: 'AR other II' }
+    - { 12: 'CASH ADVANCES' }
+    - { 13: 'DUE TO OTHER BANKS' }
+    - { 14: 'ALLOWANCE FOR DOUBTFUL ACCTS' }
+    - { 15: 'ACCRUED EXPENSES' }
+    - { 16: 'A/P OTHERS' }
+    - { 17: 'MISC. LIABILITY -CBU' }
+    - { 18: 'MISC. LIABILITY -LF' }
+    - { 19: 'MISC. LIABILITY -MAF' }
+    - { 20: 'MISC. LIABILITY -DST' }
+    - { 21: 'MISC. LIABILITY - others' }
+    - { 22: 'INCOME TAX PAYABLE' }
+    - { 23: 'SSS, MED, EC PAYABLE' }
+    - { 24: 'INTEREST ON LOAN' }
+    - { 25: 'SERVICE CHARGE' }
+    - { 26: 'OTHER INCOME' }
+    - { 27: 'SALARIES AND WAGES' }
+    - { 28: 'RELOCATION ALLOWANCE' }
+    - { 29: 'MEDICAL ALLOWANCE' }
+    - { 30: 'SSS, MED, EC FRINGE' }
+    - { 31: 'REPRESENTATION AND ENT' }
+    - { 32: 'COLA' }
+    - { 33: 'OTHER FRINGE' }
+    - { 34: 'PROVISION FOR BAD DEBTS' }
+    - { 35: 'DEPRECIATION EXP -TE' }
+    - { 36: 'DEPRECIATION EXP -OE' }
+    - { 37: 'DEPRECIATION EXP -LI' }
+    - { 38: 'MISC. EXPENSES' }
+    - { 39: 'MISC. OFFICE SUPPLIES' }
+    - { 40: 'STATIONERY AND SUPPLIES USED' }
+    - { 41: 'POWER, LIGHT AND WATER' }
+    - { 42: 'TRANSPORTATION EXPENSES' }
+    - { 43: 'TRAVELLING EXPENSES' }
+    - { 44: 'TAXES AND LICENSES' }
+    - { 45: 'RENT' }
+    - { 46: 'MISC. EXPENSE -INCOME TAX' }

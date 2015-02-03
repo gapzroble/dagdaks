@@ -1,0 +1,31 @@
+parameters:
+    
+services:
+    dagdaks.admin.staff:
+        class: AppBundle\Admin\StaffAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Staff", label: "Staff" }
+        arguments:
+            - ~
+            - AppBundle\Entity\Staff
+            - ~
+        calls:
+            - [setTranslationDomain, [SonataAdminBundle]]
+
+    dagdaks.admin.transaction:
+        class: AppBundle\Admin\TransactionAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Transaction", label: "Transaction" }
+        arguments:
+            - ~
+            - AppBundle\Entity\Transaction
+            - ~
+        
+    dagdaks.admin.account:
+        class: AppBundle\Admin\AccountAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Account", label: "Account" }
+        arguments:
+            - ~
+            - AppBundle\Entity\Account
+            - ~
